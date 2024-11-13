@@ -1,3 +1,4 @@
+
 # Projekt rekrutacyjny: Junior AI Developer - Oxido
 
 ## Opis
@@ -27,3 +28,84 @@ Przed rozpoczęciem pracy z projektem zaleca się utworzenie wirtualnego środow
    ```bash
    git clone https://github.com/TwojeRepozytorium/projekt-oxido.git
    cd projekt-oxido
+   ```
+
+2. **Utwórz wirtualne środowisko**:
+
+   W systemie Linux/MacOS:
+
+   ```bash
+   python3 -m venv venv
+   ```
+
+   W systemie Windows:
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Aktywuj wirtualne środowisko**:
+
+   - **Linux/MacOS**:
+     ```bash
+     source venv/bin/activate
+     ```
+
+   - **Windows**:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+4. **Zainstaluj wymagane pakiety**:
+
+   Upewnij się, że masz zainstalowany moduł `openai`. Możesz go zainstalować z pliku `requirements.txt` lub bezpośrednio:
+
+   ```bash
+   pip install openai
+   ```
+
+## Ustawienia API
+
+Aby skrypt mógł się połączyć z API OpenAI, musisz ustawić swój klucz API.
+
+1. Skopiuj klucz API z konta OpenAI.
+2. Zamień istniejący klucz w plikach `rekrutacja.py` i `test.py` na swój własny klucz API OpenAI lub ustaw klucz w zmiennej środowiskowej:
+
+   ```bash
+   export OPENAI_API_KEY="Twój_klucz_API"
+   ```
+
+## Uruchomienie projektu
+
+Po skonfigurowaniu środowiska możesz uruchomić główny skrypt `rekrutacja.py`, aby wygenerować plik `artykul.html`.
+
+```bash
+python rekrutacja.py
+```
+
+Po uruchomieniu skryptu wygenerowane zostaną pliki:
+
+- `artykul.html` – zawiera treść artykułu w formacie HTML z miejscami na grafiki.
+- `podglad.html` – zawiera pełny podgląd artykułu, wstawiony w szablon z prostymi stylami CSS.
+
+## Testowanie
+
+Możesz uruchomić skrypt `test.py`, aby przetestować generowanie obrazu za pomocą API OpenAI:
+
+```bash
+python test.py
+```
+
+Po wykonaniu skryptu link do wygenerowanego obrazu zostanie zapisany w pliku `obraz1.txt`.
+
+## Plik artykul.html
+
+Wygenerowany plik `artykul.html` jest uproszczonym HTML zawierającym jedynie treść do osadzenia w `<body>` strony, zgodnie z wymaganiami zadania. Aby zobaczyć wizualizację, otwórz plik `podglad.html`, który zawiera pełny podgląd artykułu na podstawie szablonu.
+
+## Uwagi dotyczące bezpieczeństwa
+
+Zalecamy usunięcie klucza API przed upublicznieniem repozytorium. Możesz też użyć zmiennych środowiskowych, aby bezpiecznie przechowywać klucz API.
+
+## Autor
+
+Zadanie wykonane jako część procesu rekrutacyjnego do firmy Oxido.
