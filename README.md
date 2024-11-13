@@ -64,17 +64,6 @@ Przed rozpoczęciem pracy z projektem zaleca się utworzenie wirtualnego środow
    pip install openai
    ```
 
-## Ustawienia API
-
-Aby skrypt mógł się połączyć z API OpenAI, musisz ustawić swój klucz API.
-
-1. Skopiuj klucz API z konta OpenAI.
-2. Zamień istniejący klucz w plikach `rekrutacja.py` i `test.py` na swój własny klucz API OpenAI lub ustaw klucz w zmiennej środowiskowej:
-
-   ```bash
-   export OPENAI_API_KEY="Twój_klucz_API"
-   ```
-
 ## Uruchomienie projektu
 
 Po skonfigurowaniu środowiska możesz uruchomić główny skrypt `rekrutacja.py`, aby wygenerować plik `artykul.html`.
