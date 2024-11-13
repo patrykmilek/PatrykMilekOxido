@@ -70,29 +70,15 @@ Po skonfigurowaniu środowiska możesz uruchomić główny skrypt `rekrutacja.py
 ```bash
 python rekrutacja.py
 ```
-
-Po uruchomieniu skryptu wygenerowane zostaną pliki:
-
-- `artykul.html` – zawiera treść artykułu w formacie HTML z miejscami na grafiki.
-- `podglad.html` – zawiera pełny podgląd artykułu, wstawiony w szablon z prostymi stylami CSS.
-
-## Testowanie
-
-Możesz uruchomić skrypt `test.py`, aby przetestować generowanie obrazu za pomocą API OpenAI:
+Po uruchomieniu głównego skryptu uruchom `podglad.py`, aby wygenerować podgląd pliku.
 
 ```bash
-python test.py
+python podglad.py
 ```
-
-Po wykonaniu skryptu link do wygenerowanego obrazu zostanie zapisany w pliku `obraz1.txt`.
 
 ## Plik artykul.html
 
 Wygenerowany plik `artykul.html` jest uproszczonym HTML zawierającym jedynie treść do osadzenia w `<body>` strony, zgodnie z wymaganiami zadania. Aby zobaczyć wizualizację, otwórz plik `podglad.html`, który zawiera pełny podgląd artykułu na podstawie szablonu.
-
-## Uwagi dotyczące bezpieczeństwa
-
-Zalecamy usunięcie klucza API przed upublicznieniem repozytorium. Możesz też użyć zmiennych środowiskowych, aby bezpiecznie przechowywać klucz API.
 
 ## Autor
 
