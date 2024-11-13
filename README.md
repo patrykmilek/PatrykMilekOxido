@@ -17,7 +17,6 @@ To repozytorium zawiera rozwiązanie zadania rekrutacyjnego na stanowisko Junior
 ## Wymagania
 
 - Python 3.8 lub nowszy
-- Konto OpenAI oraz klucz API do wykorzystania modelu GPT
 
 ## Konfiguracja środowiska
 
