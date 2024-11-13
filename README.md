@@ -12,7 +12,6 @@ To repozytorium zawiera rozwiązanie zadania rekrutacyjnego na stanowisko Junior
 - **artykul.html**: Wygenerowany plik HTML zawierający przetworzoną treść artykułu.
 - **szablon.html**: Szablon HTML do podglądu artykułu z prostym stylem CSS.
 - **podglad.html**: Pełny podgląd artykułu wygenerowany na podstawie szablonu i treści artykułu.
-- **test.py**: Skrypt testowy do generowania linków do obrazów przy użyciu API OpenAI.
 
 ## Wymagania
 
