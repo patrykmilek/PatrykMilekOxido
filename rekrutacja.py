@@ -1,7 +1,7 @@
 import openai
 import re
 
-openai.api_key = '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'
+openai.api_key = 'SET_YOUR_KEY'
 
 def generate_image_url(description):
     """
