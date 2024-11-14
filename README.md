@@ -64,7 +64,7 @@ pip install openai==0.28.0
 
 ### Krok 9: Zmień klucz API OpenAI
 
-- Modyfikacja skryptu, aby wpisać klucz API bezpośrednio w kodzie w miejscu, gdzie jest wywoływana zmienna `openai.api_key` w miejscu 'SET_YOUR_KEY'.
+- Wygeneruj swój Api Keys, a następnie wklej go w miejscu 'SET_YOUR_KEY' w pliku rekrutacja.py.
 
 ### Krok 10: Uruchom program
 W terminalu wpisz:
@@ -113,7 +113,7 @@ pip install openai==0.28.0
 
 ### Krok 6: Zmień klucz API OpenAI
 
-- Modyfikacja skryptu, aby wpisać klucz API bezpośrednio w kodzie w miejscu, gdzie jest wywoływana zmienna `openai.api_key` w miejscu 'SET_YOUR_KEY'.
+- Wygeneruj swój Api Keys, a następnie wklej go w miejscu 'SET_YOUR_KEY' w pliku rekrutacja.py.
 
 ### Krok 7: Uruchom program
 W terminalu wpisz:
