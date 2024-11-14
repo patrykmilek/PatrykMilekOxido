@@ -13,7 +13,7 @@ To repozytorium zawiera rozwiązanie zadania rekrutacyjnego na stanowisko Junior
 - **szablon.html**: Szablon HTML do podglądu artykułu z prostym stylem CSS.
 - **podglad.html**: Pełny podgląd artykułu wygenerowany na podstawie szablonu i treści artykułu.
 
-### Dla systemu Windows:
+# Dla systemu Windows:
 
 ### Krok 1: Uruchom Visual Studio Code
 Otwórz Visual Studio Code, aby rozpocząć konfigurację.
@@ -74,7 +74,7 @@ python3 podglad.py
 ```
 Po wykonaniu tej komendy program powinien się uruchomić i wygenerować pliki `artykul.html` oraz `podglad.html`.
 
-### Dla systemu Linux:
+# Dla systemu Linux:
 
 ### Krok 1: Pobierz repozytorium projektu
 Otwórz terminal i sklonuj repozytorium projektu z GitHub:
